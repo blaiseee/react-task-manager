@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import { AuthProvider } from './components/AuthContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard'
-import Signup from './components/Signup';
+import Login from './components/auth/Login';
+import Dashboard from './components/dashboard/Dashboard'
+import Signup from './components/auth/Signup';
 
 const App: React.FC = () => {
   return (
